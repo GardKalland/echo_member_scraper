@@ -1,0 +1,710 @@
+{
+    "Arne Natsk\u00e5r": {
+        "groups": [
+            "2024-2025"
+        ],
+        "count": 1
+    },
+    "Gard Heine Kalland": {
+        "groups": [
+            "2024-2025",
+            "programmerbar",
+            "bryggelaget"
+        ],
+        "count": 3
+    },
+    "Theodor Nissen-Meyer": {
+        "groups": [
+            "2024-2025"
+        ],
+        "count": 1
+    },
+    "Johanne Blikberg Herheim": {
+        "groups": [
+            "2024-2025",
+            "webkom"
+        ],
+        "count": 2
+    },
+    "Mina Tolfsen": {
+        "groups": [
+            "2024-2025"
+        ],
+        "count": 1
+    },
+    "Stian Munkejord": {
+        "groups": [
+            "2024-2025",
+            "programmerbar",
+            "bryggelaget"
+        ],
+        "count": 3
+    },
+    "James Hobson": {
+        "groups": [
+            "2024-2025"
+        ],
+        "count": 1
+    },
+    "Gard Eide": {
+        "groups": [
+            "2024-2025",
+            "bedkom"
+        ],
+        "count": 2
+    },
+    "Izaak Sarnecki": {
+        "groups": [
+            "2024-2025",
+            "hyggkom",
+            "webkom"
+        ],
+        "count": 3
+    },
+    "Anna Sviland": {
+        "groups": [
+            "2024-2025",
+            "tilde"
+        ],
+        "count": 2
+    },
+    "Kristian Elde Johansen": {
+        "groups": [
+            "2024-2025",
+            "webkom"
+        ],
+        "count": 2
+    },
+    "Amiley Abukar Siidi": {
+        "groups": [
+            "2024-2025",
+            "makerspace"
+        ],
+        "count": 2
+    },
+    "Karolina Gil": {
+        "groups": [
+            "2024-2025",
+            "bryggelaget",
+            "gnist",
+            "webkom"
+        ],
+        "count": 4
+    },
+    "Jacob Foss": {
+        "groups": [
+            "2024-2025",
+            "bedkom",
+            "esc"
+        ],
+        "count": 3
+    },
+    "Lars Bysheim": {
+        "groups": [
+            "programmerbar"
+        ],
+        "count": 1
+    },
+    "Henrik Trondseth": {
+        "groups": [
+            "programmerbar",
+            "gnist"
+        ],
+        "count": 2
+    },
+    "Lene Soltveit": {
+        "groups": [
+            "programmerbar"
+        ],
+        "count": 1
+    },
+    "Lars Haukland": {
+        "groups": [
+            "programmerbar"
+        ],
+        "count": 1
+    },
+    "Emil Johannessen": {
+        "groups": [
+            "programmerbar",
+            "bryggelaget"
+        ],
+        "count": 2
+    },
+    "Siren Bjor\u00f8y": {
+        "groups": [
+            "programmerbar"
+        ],
+        "count": 1
+    },
+    "Sofie Nhu Nguyen": {
+        "groups": [
+            "programmerbar",
+            "gnist"
+        ],
+        "count": 2
+    },
+    "Steffen Andre Pettersen": {
+        "groups": [
+            "programmerbar"
+        ],
+        "count": 1
+    },
+    "Andre Normann": {
+        "groups": [
+            "programmerbar"
+        ],
+        "count": 1
+    },
+    "Eirik Rekve Thorsheim": {
+        "groups": [
+            "programmerbar",
+            "bryggelaget"
+        ],
+        "count": 2
+    },
+    "Steinar Simonnes": {
+        "groups": [
+            "programmerbar",
+            "gnist"
+        ],
+        "count": 2
+    },
+    "Snorre Thomsen": {
+        "groups": [
+            "bryggelaget"
+        ],
+        "count": 1
+    },
+    "Ask Rud Persson": {
+        "groups": [
+            "bryggelaget"
+        ],
+        "count": 1
+    },
+    "Oskar Krystian Michalski": {
+        "groups": [
+            "bryggelaget",
+            "tilde"
+        ],
+        "count": 2
+    },
+    "Ole Magnus Fon Johnsen": {
+        "groups": [
+            "bryggelaget",
+            "webkom"
+        ],
+        "count": 2
+    },
+    "\u00d8sten Vestby Edvardsen": {
+        "groups": [
+            "bryggelaget",
+            "gnist"
+        ],
+        "count": 2
+    },
+    "Felix Kaasa": {
+        "groups": [
+            "bryggelaget"
+        ],
+        "count": 1
+    },
+    "Sedric Kvarnes": {
+        "groups": [
+            "bryggelaget"
+        ],
+        "count": 1
+    },
+    "Lars Lismoen": {
+        "groups": [
+            "bryggelaget"
+        ],
+        "count": 1
+    },
+    "Tines Valen": {
+        "groups": [
+            "bryggelaget"
+        ],
+        "count": 1
+    },
+    "P\u00e5l Magnus Gunnestad": {
+        "groups": [
+            "bryggelaget"
+        ],
+        "count": 1
+    },
+    "Kevin Amundsen Dale": {
+        "groups": [
+            "echo-filmklubb",
+            "echo-mages",
+            "hyggkom",
+            "tilde"
+        ],
+        "count": 4
+    },
+    "Sara Stavang": {
+        "groups": [
+            "echo-filmklubb",
+            "tilde"
+        ],
+        "count": 2
+    },
+    "Sara Ahmadi": {
+        "groups": [
+            "echo-filmklubb",
+            "hyggkom"
+        ],
+        "count": 2
+    },
+    "Idris Elmi": {
+        "groups": [
+            "echo-filmklubb"
+        ],
+        "count": 1
+    },
+    "August Ebne R\u00f8eggen": {
+        "groups": [
+            "echo-filmklubb"
+        ],
+        "count": 1
+    },
+    "Sofia E": {
+        "groups": [
+            "echo-filmklubb"
+        ],
+        "count": 1
+    },
+    "Kristoffer \u00c6s\u00f8y": {
+        "groups": [
+            "echo-filmklubb"
+        ],
+        "count": 1
+    },
+    "Vegard Jensl\u00f8kken": {
+        "groups": [
+            "echo-filmklubb"
+        ],
+        "count": 1
+    },
+    "Tord Vikestad": {
+        "groups": [
+            "echo-informatikkband",
+            "makerspace"
+        ],
+        "count": 2
+    },
+    "Magnus Liller\u00f8nning Aune": {
+        "groups": [
+            "echo-klatring-buldring"
+        ],
+        "count": 1
+    },
+    "Jakob Adrian Farestveit": {
+        "groups": [
+            "echo-mages"
+        ],
+        "count": 1
+    },
+    "Stian J. Husum": {
+        "groups": [
+            "echo-mages"
+        ],
+        "count": 1
+    },
+    "Thilla Sollie": {
+        "groups": [
+            "bedkom",
+            "hyggkom"
+        ],
+        "count": 2
+    },
+    "Jonathan Blom Christensen": {
+        "groups": [
+            "bedkom"
+        ],
+        "count": 1
+    },
+    "Vilde Oppeg\u00e5rd": {
+        "groups": [
+            "bedkom"
+        ],
+        "count": 1
+    },
+    "Mathea Bekken Sand\u00f8y": {
+        "groups": [
+            "bedkom"
+        ],
+        "count": 1
+    },
+    "Julie Monge Hallan": {
+        "groups": [
+            "bedkom"
+        ],
+        "count": 1
+    },
+    "Ole Eiane": {
+        "groups": [
+            "bedkom"
+        ],
+        "count": 1
+    },
+    "Solveig Tenfjord": {
+        "groups": [
+            "bedkom",
+            "hyggkom"
+        ],
+        "count": 2
+    },
+    "Solveig \u00d8degaard Not\u00f8": {
+        "groups": [
+            "bedkom"
+        ],
+        "count": 1
+    },
+    "Johannes Helleve": {
+        "groups": [
+            "bedkom"
+        ],
+        "count": 1
+    },
+    "Jasmine Athea N\u00e6ss": {
+        "groups": [
+            "bedkom",
+            "makerspace"
+        ],
+        "count": 2
+    },
+    "Johannes Viken": {
+        "groups": [
+            "bedkom",
+            "esc"
+        ],
+        "count": 2
+    },
+    "Halvor Cappelen Wik": {
+        "groups": [
+            "bedkom"
+        ],
+        "count": 1
+    },
+    "Mikal Arolkar": {
+        "groups": [
+            "bedkom"
+        ],
+        "count": 1
+    },
+    "Ankita Kaur Johar": {
+        "groups": [
+            "bedkom"
+        ],
+        "count": 1
+    },
+    "Ljubomir Simic": {
+        "groups": [
+            "esc"
+        ],
+        "count": 1
+    },
+    "Vetle Mathiesen Knutsen": {
+        "groups": [
+            "esc"
+        ],
+        "count": 1
+    },
+    "Lasse Ljoteb\u00f8 Holt": {
+        "groups": [
+            "esc"
+        ],
+        "count": 1
+    },
+    "Sigurd Myklebust": {
+        "groups": [
+            "esc"
+        ],
+        "count": 1
+    },
+    "Seline Magnussen": {
+        "groups": [
+            "esc",
+            "gnist"
+        ],
+        "count": 2
+    },
+    "Caroline Boge-Fredriksen": {
+        "groups": [
+            "esc"
+        ],
+        "count": 1
+    },
+    "Cathrine Tr\u00f8en": {
+        "groups": [
+            "esc"
+        ],
+        "count": 1
+    },
+    "Nicolas Motamayor": {
+        "groups": [
+            "esc"
+        ],
+        "count": 1
+    },
+    "Joakim Schanche": {
+        "groups": [
+            "esc"
+        ],
+        "count": 1
+    },
+    "Malin Valkv\u00e6 Volle": {
+        "groups": [
+            "esc"
+        ],
+        "count": 1
+    },
+    "Hedda Bj\u00f8rlo": {
+        "groups": [
+            "esc"
+        ],
+        "count": 1
+    },
+    "Sage Brandtz\u00e6g": {
+        "groups": [
+            "esc"
+        ],
+        "count": 1
+    },
+    "\u00c5se Fagerbakke": {
+        "groups": [
+            "esc"
+        ],
+        "count": 1
+    },
+    "Henrik Nilsen-L\u00f8mo": {
+        "groups": [
+            "gnist"
+        ],
+        "count": 1
+    },
+    "Tobias Meyer Innleggen": {
+        "groups": [
+            "gnist"
+        ],
+        "count": 1
+    },
+    "Shania Muganga": {
+        "groups": [
+            "gnist"
+        ],
+        "count": 1
+    },
+    "William Manley": {
+        "groups": [
+            "gnist"
+        ],
+        "count": 1
+    },
+    "Laxmi Dhital": {
+        "groups": [
+            "gnist"
+        ],
+        "count": 1
+    },
+    "Kristoffer Jensvoll-Johnsen": {
+        "groups": [
+            "gnist"
+        ],
+        "count": 1
+    },
+    "Bahja Sheikh": {
+        "groups": [
+            "gnist"
+        ],
+        "count": 1
+    },
+    "Luwei Li": {
+        "groups": [
+            "gnist",
+            "hyggkom"
+        ],
+        "count": 2
+    },
+    "Tony Bao Lam": {
+        "groups": [
+            "gnist"
+        ],
+        "count": 1
+    },
+    "Carina Elisabeth Seidel": {
+        "groups": [
+            "gnist"
+        ],
+        "count": 1
+    },
+    "Maja Cavlek": {
+        "groups": [
+            "hyggkom"
+        ],
+        "count": 1
+    },
+    "Fie Bergli": {
+        "groups": [
+            "hyggkom"
+        ],
+        "count": 1
+    },
+    "Ingeborg Waagan \u00d8ksnes": {
+        "groups": [
+            "hyggkom"
+        ],
+        "count": 1
+    },
+    "Nora Mellati": {
+        "groups": [
+            "hyggkom"
+        ],
+        "count": 1
+    },
+    "Vilde Helg\u00f8 Salte": {
+        "groups": [
+            "hyggkom"
+        ],
+        "count": 1
+    },
+    "Eirill Haukvik \u00d8ya": {
+        "groups": [
+            "hyggkom"
+        ],
+        "count": 1
+    },
+    "Amanda Rogn\u00e5s": {
+        "groups": [
+            "hyggkom"
+        ],
+        "count": 1
+    },
+    "Thone St\u00f8a": {
+        "groups": [
+            "hyggkom"
+        ],
+        "count": 1
+    },
+    "Carl Didrik Torkildsen": {
+        "groups": [
+            "makerspace"
+        ],
+        "count": 1
+    },
+    "Linus Krystad Raaen": {
+        "groups": [
+            "makerspace"
+        ],
+        "count": 1
+    },
+    "Christoffer Janson": {
+        "groups": [
+            "makerspace"
+        ],
+        "count": 1
+    },
+    "Johnarthan Amalathas": {
+        "groups": [
+            "makerspace"
+        ],
+        "count": 1
+    },
+    "Siri \u00d8ie Brommeland": {
+        "groups": [
+            "makerspace"
+        ],
+        "count": 1
+    },
+    "Maella Irebe Muganga": {
+        "groups": [
+            "tilde"
+        ],
+        "count": 1
+    },
+    "Mathias Skauge Larsen": {
+        "groups": [
+            "tilde"
+        ],
+        "count": 1
+    },
+    "Kaja Wolleb\u00e6k Skr\u00e5mo": {
+        "groups": [
+            "tilde"
+        ],
+        "count": 1
+    },
+    "Ole Straumland": {
+        "groups": [
+            "tilde"
+        ],
+        "count": 1
+    },
+    "Brage L\u00f8vfall Aasen": {
+        "groups": [
+            "tilde"
+        ],
+        "count": 1
+    },
+    "Aimee Hong": {
+        "groups": [
+            "tilde"
+        ],
+        "count": 1
+    },
+    "Johanne Nerland Myhr": {
+        "groups": [
+            "tilde"
+        ],
+        "count": 1
+    },
+    "Egor Bostrov": {
+        "groups": [
+            "tilde"
+        ],
+        "count": 1
+    },
+    "Kjetil Fantoft Alvestad": {
+        "groups": [
+            "webkom"
+        ],
+        "count": 1
+    },
+    "Nikolaus Engh": {
+        "groups": [
+            "webkom"
+        ],
+        "count": 1
+    },
+    "Swarnika Sellathurai": {
+        "groups": [
+            "webkom"
+        ],
+        "count": 1
+    },
+    "Hermann Holstad Walaunet": {
+        "groups": [
+            "webkom"
+        ],
+        "count": 1
+    },
+    "Zeno Leonardi": {
+        "groups": [
+            "webkom"
+        ],
+        "count": 1
+    },
+    "Wengeal Abebe": {
+        "groups": [
+            "webkom"
+        ],
+        "count": 1
+    },
+    "Jesper Kierulf Hammer": {
+        "groups": [
+            "webkom"
+        ],
+        "count": 1
+    }
+}
