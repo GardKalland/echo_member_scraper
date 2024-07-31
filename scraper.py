@@ -10,13 +10,16 @@ import json
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+
+# Set which echo HS year to scrape
+echo_year = ""  
+
 urls = {
-    "hovedstyre": "https://echo.uib.no/for-studenter/gruppe/2024-2025",
+    "hovedstyre": f"https://echo.uib.no/for-studenter/gruppe/{echo_year}" if echo_year else "https://echo.uib.no/for-studenter/grupper/hovedstyre",
     "interessegrupper": "https://echo.uib.no/for-studenter/grupper/interessegrupper",
     "undergrupper": "https://echo.uib.no/for-studenter/grupper/undergrupper",
     "programmerbar": "https://echo.uib.no/for-studenter/gruppe/programmerbar"
 }
-
 chrome_options = Options()
 chrome_options.add_argument("--headless")  
 chrome_options.add_argument("--no-sandbox")
@@ -86,19 +89,35 @@ def get_group_urls(main_url):
         logger.error(f"Error loading {main_url}: {e}")
         return []
 
-for group in ["hovedstyre", "programmerbar"]:
-    logger.info(f"Scraping main page: {urls[group]}")
-    scrape_group_members(urls[group])
 
-
-
-for group in ["interessegrupper", "undergrupper"]:
-    logger.info(f"Scraping main page: {urls[group]}")
-    group_urls = get_group_urls(urls[group])
-    logger.info(f"Found {len(group_urls)} group URLs in {urls[group]}")
+if echo_year == "":
     
-    for group_url in group_urls:
-        scrape_group_members(group_url)
+    for group in ["hovedstyre","interessegrupper", "undergrupper"]:
+        logger.info(f"Scraping main page: {urls[group]}")
+        group_urls = get_group_urls(urls[group])
+        logger.info(f"Found {len(group_urls)} group URLs in {urls[group]}")
+    
+        for group_url in group_urls:
+            scrape_group_members(group_url)
+    
+    logger.info(f"Scraping main page: {urls['programmerbar']}")
+    scrape_group_members(urls['programmerbar'])
+
+    
+else:
+
+    for group in ["hovedstyre", "programmerbar"]:
+        logger.info(f"Scraping main page: {urls[group]}")
+        scrape_group_members(urls[group])
+
+
+    for group in ["interessegrupper", "undergrupper"]:
+        logger.info(f"Scraping main page: {urls[group]}")
+        group_urls = get_group_urls(urls[group])
+        logger.info(f"Found {len(group_urls)} group URLs in {urls[group]}")
+    
+        for group_url in group_urls:
+            scrape_group_members(group_url)
 
 driver.quit()
 
