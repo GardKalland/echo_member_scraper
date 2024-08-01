@@ -11,8 +11,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-# Set which echo HS year to scrape
-echo_year = ""  
+# Set which echo HS year to scrape if not set, it will retrive all the HS years
+echo_year = ""  # Set to "" to scrape all years
 
 urls = {
     "hovedstyre": f"https://echo.uib.no/for-studenter/gruppe/{echo_year}" if echo_year else "https://echo.uib.no/for-studenter/grupper/hovedstyre",
@@ -90,35 +90,30 @@ def get_group_urls(main_url):
         return []
 
 
-if echo_year == "":
+def multi_scraper(sites):
+    iterator = iter(sites)
     
-    for group in ["hovedstyre","interessegrupper", "undergrupper"]:
-        logger.info(f"Scraping main page: {urls[group]}")
-        group_urls = get_group_urls(urls[group])
-        logger.info(f"Found {len(group_urls)} group URLs in {urls[group]}")
+
+    if echo_year:
+        logger.info(f"Scraping main page: {urls['hovedstyre']}")
+        scrape_group_members(urls[next(iterator)])
+        sites.pop('hovedstyre')
     
-        for group_url in group_urls:
-            scrape_group_members(group_url)
     
-    logger.info(f"Scraping main page: {urls['programmerbar']}")
-    scrape_group_members(urls['programmerbar'])
 
+    for site in sites:
+        logger.info(f"Scraping main page: {urls[site]}")
+        group_urls = get_group_urls(urls[site])
+        logger.info(f"Found {len(group_urls)} group URLs in {urls[site]}")
     
-else:
+        for url in group_urls:
+            scrape_group_members(url)
 
-    for group in ["hovedstyre", "programmerbar"]:
-        logger.info(f"Scraping main page: {urls[group]}")
-        scrape_group_members(urls[group])
+    if 'programmerbar' in sites:
+        scrape_group_members(urls['programmerbar'])
+        sites.pop('programmerbar')
 
-
-    for group in ["interessegrupper", "undergrupper"]:
-        logger.info(f"Scraping main page: {urls[group]}")
-        group_urls = get_group_urls(urls[group])
-        logger.info(f"Found {len(group_urls)} group URLs in {urls[group]}")
-    
-        for group_url in group_urls:
-            scrape_group_members(group_url)
-
+multi_scraper(urls)
 driver.quit()
 
 logger.info("Collected data:")
